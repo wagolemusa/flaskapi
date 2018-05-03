@@ -1,7 +1,7 @@
 # flaskapi
 This Application test RESTful APIs
 
-## $ virtualevn --no-site-packeges venv
+## $ virtualenv --no-site-packages venv
 set up the virtual environment for flask
 
 ##  $ source venv/bin/activate
