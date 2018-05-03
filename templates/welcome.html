@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Flask Aoo</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %} Welcome {% endblock %}
+{% block content %}
 <div class="container">
 		<h1>Welcome to flask</h1>
 		<p>Click  <a href="/"> here</a>to go home</p>
 </div>
-</body>
-</html>
+
+{% endblock %}
